@@ -8,3 +8,9 @@ venue: 'Leicester Research Archive, PhD Thesis, University of Leicester'
 citation: 'J. Hoey. Reversing an Imperative Concurrent Programming Language. PhD Thesis, University of Leicester. 2020.'
 ---
 hello this is a single publication
+
+    {% if post.excerpt and site.read_more != 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}

@@ -5,7 +5,7 @@ permalink: /publication/2018-express-sos
 excerpt: '<a href="https://doi.org/10.4204/EPTCS.276.7">[Download]</a>'
 date: 2018-08-27
 venue: 'Combined 25th International Workshop on Expressiveness in Concurrency and 15th Workshop on Structural Operational Semantics (EXPRESS/SOS)'
-citation: 'J. Hoey, I. Ulidowski & S. Yuen (2017): Reversing Imperative Parallel Programs. In: Proceedings of Express/SOS, 2017, EPTCS 255, pp. 51–66, doi:10.4204/EPTCS.255.4'
+citation: 'J. Hoey, I. Ulidowski, and S. Yuen. Reversing parallel programs with blocks and procedures. In EXPRESS/SOS, volume 276 of Electronic Proceedings in Theoretical Computer Science, pages 69-86, 2018.'
 ---
 
 [Download this paper here](https://doi.org/10.4204/EPTCS.276.7)

@@ -1,5 +1,5 @@
 ---
-title: 'Will I ever post here? I guess time will tell..'
+title: 'Will I ever post here ...? '
 date: 2020-12-24
 permalink: /posts/2020/12/first-post/
 tags:
